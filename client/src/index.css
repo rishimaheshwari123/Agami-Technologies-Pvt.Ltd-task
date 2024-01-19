@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: aqua;
+    margin-bottom: 30px;
+}
+.nav-item ul {
+    margin: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+.nav-item ul li{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-item ul span {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+}
+.form-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.form-container input{
+    width: 320px;
+    height: 45px;
+}
+.form-container form{
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.form-container .btn{
+   padding: 15px 20px;
+   background-color: rgb(80, 62, 40);
+   color: white;
+   font-size: 18px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+}
+.employee-card{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border: 2px solid gray;
+    width: 300px;
+}
+.card{
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+
+}
